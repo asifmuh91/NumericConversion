@@ -1,7 +1,7 @@
 # NumericConversion
 Numerical Conversion Project has Following Functions
 
-1) Check if an input is a valid Number or Not
+1) Check if an input contains a valid Number or Not
 2) If number is valid, number is processed to convert into Words. like 250 will be converted into two hundred and fifty
 3) if number is invalid, display it to user and ask for correct input
 
