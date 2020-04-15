@@ -27,8 +27,11 @@ public class NumbersToWordImpl implements NumbersToWord {
         if (number > 0) {
             // check if number is within teens
             if (number < 20) {
+                if (words.length() != 0) { //making sure this adding and logic doesn't trigger if element is first element of word
+                    words.append(" ").append("and").append(" ");
+                }
                 // get the appropriate value from oneToNine array
-                words.append(" ").append(oneToNineUnits[(int) number]);
+                words.append(oneToNineUnits[(int) number]);
             } else {
                 if (words.length() != 0) { //making sure this adding and logic doesn't trigger if element is first element of word
                     words.append(" ").append("and").append(" ");

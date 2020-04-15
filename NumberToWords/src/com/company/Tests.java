@@ -14,7 +14,7 @@ public class Tests {
     private static String S4 = "Interactive and printable 10022 ZIP code.";
     private static String S4_EXPECTED_AFTER_CONVERTED = "ten thousand and twenty-two";
     private static String S5 = "The database has 66723107008 records.";
-    private static String S5_EXPECTED_AFTER_CONVERTED = "sixty-six billion, seven hundred and twenty-three million, one hundred seven thousand eight";
+    private static String S5_EXPECTED_AFTER_CONVERTED = "sixty-six billion, seven hundred and twenty-three million, one hundred and seven thousand and eight";
     private static String S6 = "I received 23 456,9 KGs";
     private static String S6_EXPECTED_AFTER_CONVERTED = "number invalid";
     NumericMatcher numericMatcher = new NumericMatcherImpl();
